@@ -7,8 +7,7 @@ function App() {
   return (
     <div className='min-h-screen flex items-center justify-center'>
     <div className='header'>Explore Vidarbha ✨</div>
-    <div>
-    <div className='flex flex-wrap justify-center mt-20'>
+    <div className='flex mt-20 flex-wrap justify-center w-[1000px]'>
         <Link to={"/Nagpur"}>
         <div className='h-[200px] w-[200px] border-1 flex items-center justify-center cursor-pointer m-2 rounded-xl card'>Nagpur</div>
         </Link>
@@ -20,8 +19,6 @@ function App() {
         </Link>
         <Link to="/Akola"><p className='h-[200px] w-[200px] border flex items-center justify-center cursor-pointer m-2 rounded-xl card'>Akola</p>
         </Link>
-      </div>
-      <div className='flex flex-wrap justify-center'>
         <Link to={"/Amravati"}>
         <div className='h-[200px] w-[200px] border-1 flex items-center justify-center cursor-pointer m-2 rounded-xl card'>Amravati</div>
         </Link>
@@ -34,7 +31,6 @@ function App() {
         <Link to="/Gadchiroli"><p className='h-[200px] w-[200px] border flex items-center justify-center cursor-pointer m-2 rounded-xl card'>Gadchiroli</p>
         </Link>
       </div>
-     </div>
     </div>
     )
   }

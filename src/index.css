@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+body, html {
+  min-width: 100vw;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #FFE0B2, #FFCC80, #FFB74D);
+}

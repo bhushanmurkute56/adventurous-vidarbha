@@ -1,35 +1,24 @@
 import React from 'react';
 import "./App.css";
-import "./../../src/index.css";
+import "./../index.css";
 import {Link} from "react-router";
+import RightNavbar from '../Components/RightNavbar';
+import Box from './../Components/Box';
 
 function App() {
   return (
-    <div className='min-h-screen flex items-center justify-center'>
+    <div className='min-h-screen flex items-center justify-center z-10'>
     <div className='header'>Explore Vidarbha ✨</div>
-    <div className='flex mt-20 flex-wrap justify-center w-[1000px]'>
-        <Link to={"/Nagpur"}>
-        <div className='h-[200px] w-[200px] border-1 flex items-center justify-center cursor-pointer m-2 rounded-xl card'>Nagpur</div>
-        </Link>
-        <Link to={"/Wardha"}>
-        <div className='h-[200px] w-[200px] border-1 flex items-center justify-center cursor-pointer m-2 rounded-xl card'>Wardha</div>
-        </Link>
-        <Link to={"/Bhandara"}>
-        <div className='h-[200px] w-[200px] border flex items-center justify-center cursor-pointer m-2 rounded-xl card'>Bhandara</div>
-        </Link>
-        <Link to="/Akola"><p className='h-[200px] w-[200px] border flex items-center justify-center cursor-pointer m-2 rounded-xl card'>Akola</p>
-        </Link>
-        <Link to={"/Amravati"}>
-        <div className='h-[200px] w-[200px] border-1 flex items-center justify-center cursor-pointer m-2 rounded-xl card'>Amravati</div>
-        </Link>
-        <Link to={"/Gondia"}>
-        <div className='h-[200px] w-[200px] border-1 flex items-center justify-center cursor-pointer m-2 rounded-xl card'>Gondia</div>
-        </Link>
-        <Link to={"/Buldhana"}>
-        <div className='h-[200px] w-[200px] border flex items-center justify-center cursor-pointer m-2 rounded-xl card'>Buldhana</div>
-        </Link>
-        <Link to="/Gadchiroli"><p className='h-[200px] w-[200px] border flex items-center justify-center cursor-pointer m-2 rounded-xl card'>Gadchiroli</p>
-        </Link>
+    <div className='flex mt-20 flex-wrap justify-center w-[1000px] items-center'>
+      <RightNavbar className="fixed left-0 top-0"/>
+      <Box to={"/Nagpur"} boxTitle={"Nagpur"}/>
+      <Box to={"/Wardha"} boxTitle={"Wardha"}/>
+      <Box to={"/Bhandara"} boxTitle={"Bhandara"}/>
+      <Box to={"/Akola"} boxTitle={"Akola"}/>
+      <Box to={"/Amravati"} boxTitle={"Amravati"}/>
+      <Box to={"/Gondia"} boxTitle={"Gondia"}/>
+      <Box to={"/Buldhana"} boxTitle={"Buldhana"}/>
+      <Box to={"/Gadchiroli"} boxTitle={"Gadchiroli"}/>
       </div>
     </div>
     )

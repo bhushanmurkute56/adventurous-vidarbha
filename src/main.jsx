@@ -11,6 +11,7 @@ import Amravati from './Components/Amravati.jsx';
 import Buldhana from "./Components/Buldhana.jsx";
 import Gondia from "./Components/Gondia.jsx";
 import Gadchiroli from './Components/Gadchiroli.jsx';
+import RightNavbar from './Components/RightNavbar.jsx';
 
 const root = createRoot(document.getElementById('root'));
 
@@ -26,6 +27,7 @@ root.render(
     <Route path='/Buldhana' element={<Buldhana />}></Route>
     <Route path='/Gondia' element={<Gondia />}></Route>
     <Route path='/Gadchiroli' element={<Gadchiroli />}></Route>
+    <Route path='/RightNavbar' element={<RightNavbar />}></Route>
   </Routes>
   </BrowserRouter>
 )

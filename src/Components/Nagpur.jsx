@@ -2,7 +2,9 @@ import React from 'react'
 
 function Nagpur() {
   return (
-    <div>Nagpur</div>
+    <div className='text-center flex items-center justify-center min-h-screen'>
+            
+    </div>
   )
 }
 

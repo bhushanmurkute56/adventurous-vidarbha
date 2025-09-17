@@ -4,7 +4,7 @@ import Buttons from './Buttons';
 
 function RightNavbar() {
   return (
-    <div className='min-h-screen w-[270px] min-w-[150px] bg-blue-200 border border-none flex flex-col z-0 right-navbar-bg p-5'>
+    <div className='min-h-screen w-[270px] min-w-[125px] bg-blue-200 border border-none flex flex-col z-0 right-navbar-bg p-5'>
         <Buttons title="Home" className={"mt-50"}></Buttons>
         <Buttons title="Villages"></Buttons>
         <Buttons title="Certificates"></Buttons>

@@ -11,7 +11,7 @@ function App() {
       <RightNavbar />
       <div className='p-10 w-full'>
         <p className='header w-fit mx-auto'>Explore Vidarbha ✨</p>
-        <div className='items-center mx-auto mt-20 max-w-4xl flex justify-center gap-7 flex-wrap p-10'>
+        <div className='items-center mx-auto mt-20 max-w-4xl flex justify-center gap-2 sm:gap-7 flex-wrap p-10'>
           <Box to={"/Nagpur"} boxTitle={"Nagpur"} />
           <Box to={"/Wardha"} boxTitle={"Wardha"} />
           <Box to={"/Bhandara"} boxTitle={"Bhandara"} />

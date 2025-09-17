@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 function Box({boxTitle,to}) {
   return (
     <div>
-        <Link to={to} className='h-[200px] w-[200px] border-1 flex items-center justify-center cursor-pointer m-2 rounded-xl card'>{boxTitle}</Link>
+        <Link to={to} className=' flex justify-center items-center w-40 h-40 shadow-xl p-5 cursor-pointer rounded-xl bg-white'>{boxTitle}</Link>
     </div>
   )
 }

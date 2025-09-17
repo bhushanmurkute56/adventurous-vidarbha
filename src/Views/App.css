@@ -1,8 +1,6 @@
 .header{
     background: linear-gradient(90deg, #FF6F00, #FF8F00, #FFA000);
     color: white;
-    position: fixed;
-    top: 20px;
     padding: 15px;
     border-radius: 10px;
     font-size: 20px;

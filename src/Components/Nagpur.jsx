@@ -14,7 +14,7 @@ function Nagpur() {
     <div className='flex justify-between'>
         <RightNavbar />
         <div className='h-fit max-w-4xl flex flex-wrap justify-center items-center m-auto'>
-          <NagpurPhotos img={deekshabhumi} title="Nagpur"/>
+          <NagpurPhotos img={deekshabhumi} title={"Deeksha Bhumi"}/>
           <NagpurPhotos img={ramtektemple} title={"Ramtek Temple"}/>
           <NagpurPhotos img={sitabuldifort} title={"Sitabuldi Fort"}/>
           <NagpurPhotos img={futalalake} title={"Futala Lake"}/>
